@@ -1,14 +1,11 @@
 :root {
   --colours: #FDCA40;
-  --secondary_colours: #F79824;
   --bg: #2176FF;
   --primary-blue: #3051c7;
   --primary-yellow: #f0af13;
   --primary-orange: #d66550;
 }
 html{
-	-webkit-text-stroke-width: 0.5px;
-  	-webkit-text-stroke-color: var(--secondary_colours);
 	color: var(--colours);
 	font-family: Georgia, serif;
 	background-color: #33A1FD;

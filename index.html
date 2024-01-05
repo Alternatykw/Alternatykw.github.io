@@ -8,6 +8,14 @@
 </head>
 <body>
     <div class="flexbox">
+        <input type="color" id="colourpick" value="#FDCA40" onchange="colourFunction()">
+        <script>
+        function colourFunction(){      
+            var x = document.getElementById("colourpick");
+            var currentVal = x.value;
+            document.documentElement.style.setProperty('--colours', currentVal);
+        }
+        </script>
     <div class="leftside">
             <div id="leftphoto">
                 <img src="photo.jpg" alt="my face">
