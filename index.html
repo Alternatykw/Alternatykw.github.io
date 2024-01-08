@@ -8,22 +8,14 @@
 </head>
 <body>
     <div class="flexbox">
-        <input type="color" id="colourpick" value="#FDCA40" onchange="colourFunction()">
-        <script>
-        function colourFunction(){      
-            var x = document.getElementById("colourpick");
-            var currentVal = x.value;
-            document.documentElement.style.setProperty('--colours', currentVal);
-        }
-        </script>
     <div class="leftside">
             <div id="leftphoto">
                 <img src="photo.jpg" alt="my face">
-                <div class="lefttext" style="margin-left: 5%;">
-                    <h3>Hello, I am</h3>
-                    <h1>Mateusz Wróbel</h1>
-                    <h3><b>Front-End Developer</b></h3>
-                </div>
+            </div>
+            <div class="lefttext">
+                <h3>Hello, I am</h3>
+                <h1>Mateusz Wróbel</h1>
+                <h3>Front-End Developer</h3>
             </div>
         <div class="lefttext">
             <h4>Sample text lorem ipsum etc Sample text lorem ipsum etc Sample text lorem ipsum etc</h4>
@@ -31,18 +23,30 @@
     </div>
     <div class="rightside">
         <div class="righttext">
+            <h1 class="colorful">Skills</h1>
             <h4>Sample text lorem ipsum etc Sample text lorem ipsum etc Sample text lorem ipsum etc</h4>
         </div>
         <div class="righttext">
+            <h1 class="colorful">Monkey</h1>
             <h4>Sample text lorem ipsum etc Sample text lorem ipsum etc Sample text lorem ipsum etc</h4>
         </div>
         <div class="righttext">
+            <h1 class="colorful">Horse</h1>
             <h4>Sample text lorem ipsum etc Sample text lorem ipsum etc Sample text lorem ipsum etc</h4>
         </div>
         <div class="righttext">
+            <h1 class="colorful">Cat</h1>
             <h4>Sample text lorem ipsum etc Sample text lorem ipsum etc Sample text lorem ipsum etc</h4>
         </div>
     </div>
+    <input type="color" id="colourpick" value="#323B4C" onchange="colourFunction()">
+    <script>
+    function colourFunction(){      
+        var x = document.getElementById("colourpick");
+        var currentVal = x.value;
+        document.documentElement.style.setProperty('--colours', currentVal);
+    }
+    </script>
     
 </div>
 </body>
