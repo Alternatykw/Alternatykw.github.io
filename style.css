@@ -5,6 +5,10 @@
   --secondary_colours: #FEFEFE;
 }
 
+a{
+	color: var(--secondary_colours);
+}
+
 html{
 	font-family: 'Montserrat', serif;
 	background-color: var(--secondary_colours);
@@ -25,7 +29,7 @@ img{
 .leftside{
 	text-shadow: 1px 1px #31393C;
 	color: var(--secondary_colours);
-	padding: 10px 60px 0px 10px;
+	padding: 10px 50px 0px 10px;
 	border: 1px solid #31393C;
 	border-right: 0px;
 	background-color: var(--colours);
@@ -46,6 +50,7 @@ img{
 }
 .lefttext{
 	margin: 5%;
+	margin-right: -15%;
 }
 .rightside{
 	padding-left: 10px;
@@ -59,8 +64,14 @@ img{
 	text-shadow: 1px 1px #31393C;
 	color: var(--colours);
 }
-
-@media (max-width: 600px) {
+.ctext{
+	display: flex; 
+	word-break: break-all;
+}
+.icons{
+	float: left; margin-right: 3%; margin-top: 2px;
+}
+@media (max-width: 555px) {
 	.flexbox{
 		width:100%;
 		margin-top: 1.337%;
