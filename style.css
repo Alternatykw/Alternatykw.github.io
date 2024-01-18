@@ -54,6 +54,7 @@ img{
 }
 .rightside{
 	padding-left: 10px;
+	padding-right: 20px;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
@@ -67,6 +68,7 @@ img{
 .ctext{
 	display: flex; 
 	word-break: break-all;
+	margin-right: 5%;
 }
 .icons{
 	float: left; margin-right: 3%; margin-top: 2px;
