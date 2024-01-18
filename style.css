@@ -84,9 +84,7 @@ img{
 	}
 	.leftside{
 		width: 90%!important;
-		padding: 0px!important;
-		padding-left: 10px!important;
-		padding-right: 20px!important;
+		padding: 0px 20px 0px 10px!important;
 		border-right: 1px solid #353c31!important;
 	}
 	.ctext{
