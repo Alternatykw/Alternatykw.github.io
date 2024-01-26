@@ -70,6 +70,9 @@ img{
 	word-break: break-all;
 	margin-right: 5%;
 }
+.htext{
+	margin-right:5%;
+}
 .icons{
 	float: left; margin-right: 3%; margin-top: 2px;
 }
@@ -88,6 +91,9 @@ img{
 		border-right: 1px solid #353c31!important;
 	}
 	.ctext{
+		margin-right: 20%;
+	}
+	.htext{
 		margin-right: 20%;
 	}
 }
