@@ -14,11 +14,11 @@ input:hover{
 	cursor: pointer;
 }
 button{
-	font-family: 'Montserrat', serif;
-	background-color: var(--colours);
-	color: var(--secondary_colours);
-	width:100%;
-	border: 1px solid #31393C;
+	font-family: 'Montserrat', serif!important;
+	background-color: var(--colours)!important;
+	color: var(--secondary_colours)!important;
+	width:100%!important;
+	border: 1px solid #31393C!important;
 }
 
 button:hover{
