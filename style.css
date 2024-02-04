@@ -5,6 +5,33 @@
   --secondary_colours: #FEFEFE;
 }
 
+input{
+	width: 100%;
+	border: 1px solid #31393C;
+}
+
+input:hover{
+	cursor: pointer;
+}
+button{
+	font-family: 'Montserrat', serif;
+	background-color: var(--colours);
+	color: var(--secondary_colours);
+	width:100%;
+	border: 1px solid #31393C;
+}
+
+button:hover{
+	cursor: pointer;
+}
+button:active {
+	transform: scale(0.95, 0.9);
+}
+.buttons{
+	margin-left: 3px;
+	margin-top: 3px;
+	margin-right: auto;
+}
 a{
 	color: var(--secondary_colours);
 }
@@ -24,7 +51,6 @@ img{
 	display: flex;
 	flex-direction: row;
 	margin-left: auto;
-	margin-right: auto;
 }
 .leftside{
 	text-shadow: 1px 1px #31393C;

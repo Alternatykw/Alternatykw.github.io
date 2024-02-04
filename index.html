@@ -8,66 +8,118 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="flexbox">
-    <div class="leftside">
-            <div id="leftphoto">
-                <img src="photo.jpg" alt="my face">
+<div style="display: flex" id="content">
+    <div class="flexbox" id="english-content">
+        <div class="leftside">
+                <div id="leftphoto">
+                    <img src="photo.jpg" alt="my face">
+                </div>
+                <div class="lefttext">
+                    <h3>Hello, I am</h3>
+                    <h1>Mateusz Wróbel</h1>
+                    <h3>Front-End Developer</h3>
+                </div>
+            <div class="lefttext">
+                <h1>Contact</h1>
+                <i class="fa-solid fa-envelope icons"></i> <h4 class="ctext">mateusz.wrobel2@wp.pl</h4> 
+                <i class="fa-solid fa-phone icons"></i> <h4 class="ctext">792 557 617</h4>
             </div>
             <div class="lefttext">
-                <h3>Hello, I am</h3>
-                <h1>Mateusz Wróbel</h1>
-                <h3>Front-End Developer</h3>
+                <h1>Projects</h1>
+                <i class="fa-brands fa-github icons"></i> <h4 class="ctext"><a href="https://github.com/Alternatykw">Alternatykw</a></h4>
             </div>
-        <div class="lefttext">
-            <h1>Contact</h1>
-            <i class="fa-solid fa-envelope icons"></i> <h4 class="ctext">mateusz.wrobel2@wp.pl</h4> 
-            <i class="fa-solid fa-phone icons"></i> <h4 class="ctext">792 557 617</h4>
+            <div class="lefttext">
+                <h1>Hobby</h1>
+                <h4 class="htext">Universe, AI, Teology, Games plugin/mods programming</h4>
+            </div>
         </div>
-        <div class="lefttext">
-            <h1>Projects</h1>
-            <i class="fa-brands fa-github icons"></i> <h4 class="ctext"><a href="https://github.com/Alternatykw">Alternatykw</a></h4>
-        </div>
-        <div class="lefttext">
-            <h1>Hobby</h1>
-            <h4 class="htext">Universe, AI, Teology, Games plugin/mods programming</h4>
-        </div>
-    </div>
-    <div class="rightside">
-        <div class="righttext">
-            <h1 class="colorful">Technologies that im confident with</h1>
-            <h4>C++, Java, HTML/CSS/JS, PHP, JQuery, Simple frameworks (Bootstrap, Font Awesome etc.), SQL, Office 365, Github</h4>
-        </div>
-        <div class="righttext">
-            <h1 class="colorful">Technologies I've used but I'm not confident with yet</h1>
-            <h4>ReactJS, NodeJS, Typescript, Angular</h4>
-        </div>
-        <div class="righttext">
-            <h1 class="colorful">Education</h1>
-            <h4>2017-2021: Secondary School nr. 1 in Siedlce (IT Specialist)</h4>
-            <h4>2021-2025(now): WSB University in Poznań (Front-End Developer)</h4>
-        </div>
-        <div class="righttext">
-            <h1 class="colorful">Certifications</h1>
-            <h4>CEFR: C1 in the EnglishScore Core Skills test</h4>
-            <h4>CPA: Programming Essentials in C++</h4>
-            <h4>EE0.8: Instalation and operation of operating systems, perypherials and networks</h4>
-            <h4>EE0.9: Programming, creating, administrating web pages and databases</h4>
-        </div>
-        <div class="righttext">
-            <h1 class="colorful">Languages</h1>
-            <h4>Polish: Native</h4>
-            <h4>English: C1</h4>
+        <div class="rightside">
+            <div class="righttext">
+                <h1 class="colorful">Technologies that im confident with</h1>
+                <h4>C++, Java, HTML/CSS/JS, PHP, JQuery, Simple frameworks (Bootstrap, Font Awesome etc.), SQL, Office 365, Github</h4>
+            </div>
+            <div class="righttext">
+                <h1 class="colorful">Technologies I've used but I'm not confident with yet</h1>
+                <h4>ReactJS, NodeJS, Typescript, Angular</h4>
+            </div>
+            <div class="righttext">
+                <h1 class="colorful">Education</h1>
+                <h4>2017-2021: Secondary School nr. 1 in Siedlce (IT Specialist)</h4>
+                <h4>2021-2025(now): WSB University in Poznań (Front-End Developer)</h4>
+            </div>
+            <div class="righttext">
+                <h1 class="colorful">Certifications</h1>
+                <h4>CEFR: C1 in the EnglishScore Core Skills test</h4>
+                <h4>CPA: Programming Essentials in C++</h4>
+                <h4>EE0.8: Instalation and operation of operating systems, perypherials and networks</h4>
+                <h4>EE0.9: Programming, creating, administrating web pages and databases</h4>
+            </div>
+            <div class="righttext">
+                <h1 class="colorful">Languages</h1>
+                <h4>Polish: Native</h4>
+                <h4>English: C1</h4>
+            </div>
         </div>
     </div>
-    <input type="color" id="colourpick" value="#323B4C" onchange="colourFunction()">
-    <script>
-    function colourFunction(){      
-        var x = document.getElementById("colourpick");
-        var currentVal = x.value;
-        document.documentElement.style.setProperty('--colours', currentVal);
-    }
-    </script>
-    
+        <div class="flexbox" id="polish-content" style="display: none">
+            <div class="leftside">
+                <div id="leftphoto">
+                    <img src="photo.jpg" alt="my face">
+                </div>
+                <div class="lefttext">
+                    <h3>Cześć, Jestem</h3>
+                    <h1>Mateusz Wróbel</h1>
+                    <h3>Front-End Developer</h3>
+                </div>
+                <div class="lefttext">
+                    <h1>Kontakt</h1>
+                    <i class="fa-solid fa-envelope icons"></i> <h4 class="ctext">mateusz.wrobel2@wp.pl</h4> 
+                    <i class="fa-solid fa-phone icons"></i> <h4 class="ctext">792 557 617</h4>
+                </div>
+                <div class="lefttext">
+                    <h1>Projekty</h1>
+                    <i class="fa-brands fa-github icons"></i> <h4 class="ctext"><a href="https://github.com/Alternatykw">Alternatykw</a></h4>
+                </div>
+                <div class="lefttext">
+                    <h1>Hobby</h1>
+                    <h4 class="htext">Wszechświat, AI, Teologia, programowanie modów/pluginów do gier</h4>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="righttext">
+                    <h1 class="colorful">Technologie w których mam doświadczenie</h1>
+                    <h4>C++, Java, HTML/CSS/JS, PHP, JQuery, Podstawowe frameworki (Bootstrap, Font Awesome etc.), SQL, Office 365, Github</h4>
+                </div>
+                <div class="righttext">
+                    <h1 class="colorful">Technologie których używałem ale nie jestem w nich doświadczony</h1>
+                    <h4>ReactJS, NodeJS, Typescript, Angular</h4>
+                </div>
+                <div class="righttext">
+                    <h1 class="colorful">Edukacja</h1>
+                    <h4>2017-2021: Technikum nr. 1 w Siedlcach (Technik informatyk)</h4>
+                    <h4>2021-2025(now): Uniwersytet WSB w Poznaniu (Front-End Developer)</h4>
+                </div>
+                <div class="righttext">
+                    <h1 class="colorful">Certyfikaty</h1>
+                    <h4>CEFR: C1 in the EnglishScore Core Skills test</h4>
+                    <h4>CPA: Programming Essentials in C++</h4>
+                    <h4>EE0.8: Montaż i eksploatacja systemów komputerowych, urządzeń peryferyjnych i sieci</h4>
+                    <h4>EE0.9: Programowanie, tworzenie i administrowanie stronami internetowymi i bazami danych</h4>
+                </div>
+                <div class="righttext">
+                    <h1 class="colorful">Języki</h1>
+                    <h4>Polski: Ojczysty</h4>
+                    <h4>Angielski: C1</h4>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <br><input type="color" id="colourpick" value="#323B4C" onchange="colourFunction()">
+            <br><button onclick="changeLanguage('en')">English</button>
+            <br><button onclick="changeLanguage('pl')">Polski</button>
+        </div>
+    <script src="scripts.js"></script>   
 </div>
 </body>
 </html>
