@@ -28,9 +28,8 @@ button:active {
 	transform: scale(0.95, 0.9);
 }
 .buttons{
+	margin-top: -19.1337px;
 	margin-left: 3px;
-	margin-top: 3px;
-	margin-right: auto;
 }
 a{
 	color: var(--secondary_colours);
@@ -51,6 +50,7 @@ img{
 	display: flex;
 	flex-direction: row;
 	margin-left: auto;
+	margin-right: auto;
 }
 .leftside{
 	text-shadow: 1px 1px #31393C;
@@ -121,5 +121,11 @@ img{
 	}
 	.htext{
 		margin-right: 20%;
+	}
+	.buttons{
+		margin-top:-13.37px;
+		margin-left: auto;
+		margin-right: auto;
+		width:33%;
 	}
 }

@@ -60,6 +60,11 @@
                 <h4>English: C1</h4>
             </div>
         </div>
+        <div class="buttons">
+            <br><input type="color" id="colourpicken" value="#323B4C" onchange="colourFunctionen()">
+            <br><button onclick="changeLanguage('en')">English</button>
+            <br><button onclick="changeLanguage('pl')">Polski</button>
+        </div>
     </div>
         <div class="flexbox" id="polish-content" style="display: none">
             <div class="leftside">
@@ -112,13 +117,13 @@
                     <h4>Angielski: C1</h4>
                 </div>
             </div>
+            <div class="buttons">
+                <br><input type="color" id="colourpickpl" value="#323B4C" onchange="colourFunctionpl()">
+                <br><button onclick="changeLanguage('en')">English</button>
+                <br><button onclick="changeLanguage('pl')">Polski</button>
+            </div>
         </div>
-        
-        <div class="buttons">
-            <br><input type="color" id="colourpick" value="#323B4C" onchange="colourFunction()">
-            <br><button onclick="changeLanguage('en')">English</button>
-            <br><button onclick="changeLanguage('pl')">Polski</button>
-        </div>
+
     <script src="scripts.js"></script>   
 </div>
 </body>
