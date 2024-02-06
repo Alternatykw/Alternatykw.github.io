@@ -42,7 +42,8 @@ html{
 img{
 	width: 130%;
 	max-width: 150px;
-	border: 2px solid green;
+	border: 1px solid #4c575c;
+	border-radius:10px;
 }
 .flexbox{
 	width:80%;
