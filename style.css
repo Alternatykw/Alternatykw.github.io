@@ -103,7 +103,7 @@ img{
 .icons{
 	float: left; margin-right: 3%; margin-top: 2px;
 }
-@media (max-width: 555px) {
+@media (max-width: 799px) {
 	.flexbox{
 		width:100%;
 		margin-top: 1.337%;
