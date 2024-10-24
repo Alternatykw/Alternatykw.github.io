@@ -5,6 +5,10 @@
   --secondary_colours: #FEFEFE;
 }
 
+span{
+	font-weight: bold;
+}
+
 input{
 	width: 100%;
 	border: 1px solid #31393C;
